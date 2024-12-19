@@ -1,5 +1,4 @@
 FROM mcr.microsoft.com/devcontainers/universal:2-linux
 # Install the xz-utils package
-RUN apt-get update && \
-    pip install Flask && \
-    npm i vue@latest
+RUN pip install Flask
+RUN npm i vue@latest
